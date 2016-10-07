@@ -51,13 +51,13 @@ input {
 /*sidebar*/
 .hiddenBar{
     position: fixed;
-    top: -50px;
+    top: -300px;
     left: 0;
     height: 50px;
     right:0;
     margin: 0 auto;
     background: #333333;
-    border-top: 1px solid #CCCCCC;
+    /* border-top: 1px solid #CCCCCC; */
     z-index: 20;
     opacity: 0.9;
     filter: alpha(opacity:90);
@@ -103,11 +103,13 @@ input {
 }
 .hiddenBar .inPut .innerPt i{
     display: inline-block;
-    width: 46px;
+    width:70px;
     height: 33px;
-    padding-left: 12px;
     line-height: 33px;
     background: url("../images/xubi1.png") no-repeat 51px -17px
+}
+.hiddenBar .inPut .innerPt i span{
+    margin-right:20px;
 }
 .hiddenBar .inPut .innerPt i ol{
     position: absolute;
@@ -125,7 +127,7 @@ input {
     line-height: 30px;
 }
 .hiddenBar .inPut .innerPt input[type=text]{
-    width: 512px;
+    width: 500px;
     height: 32px;
     padding-left: 10px;
     border: none;
@@ -443,6 +445,7 @@ ceshi
 .headMidLeft .hmlt i ol li {
     text-align: center;
     line-height: 30px;
+    cursor:pointer;
 }
 
 .headMidLeft .hmlt i ol li:hover {
@@ -461,6 +464,7 @@ ceshi
     width: 58px;
     height: 33px;
     border: 1px solid #3a3a3a;
+    cursor:pointer;
     display: inline-block;
     border-right: none;
     line-height: 33px;

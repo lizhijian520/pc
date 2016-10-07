@@ -108,6 +108,17 @@ oType.onmouseout=function(){
 }
 
 
+var otypeBtn1=document.getElementById("typeBtn1");
+var otypeOl1=document.getElementById("typeArea1");
+var otypeBtn2=document.getElementById("typeBtn2");
+var otypeOl2=document.getElementById("typeArea2");
+otypeOl2.onclick=otypeOl1.onclick=function(ev){
+    ev=ev||window.event;
+    var oTar=ev.target||ev.srcElement;
+    otypeBtn1.innerHTML="搜"+oTar.innerHTML;
+    otypeBtn2.innerHTML="搜"+oTar.innerHTML;
+}
+
 
 
 
