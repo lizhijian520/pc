@@ -1,0 +1,1174 @@
+/*样式初始化*/
+* {
+    margin: 0;
+    padding: 0;
+    font: 12px/1.6 "tahoma,arial,sans-serif";
+}
+
+ul, ol {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+    border: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+i, em {
+    font-style: normal;
+}
+
+b, strong {
+    font-weight: normal;
+}
+
+input {
+    outline: none;
+}
+
+.w1200 {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.clearfix:before, .clearfix:after {
+    content: '';
+    display: block;
+    height: 0;
+    clear: both;
+    overflow: hidden;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+/*。。。。。。。。。。。。。。。。。。*/
+/*sidebar*/
+.hiddenBar{
+    position: fixed;
+    top: -50px;
+    left: 0;
+    height: 50px;
+    right:0;
+    margin: 0 auto;
+    background: #333333;
+    border-top: 1px solid #CCCCCC;
+    z-index: 20;
+    opacity: 0.9;
+    filter: alpha(opacity:90);
+    text-align: center;
+    /*display: none;*/
+}
+.hiddenBar .cen{width:1366px;margin:0 auto;position:relative;}
+.hiddenBar .mogutou{
+    position: absolute;
+    left:75px ;
+    top: 6px;
+    width: 152px;
+    height: 38px;
+    background: url("../images/mogutouo.png") no-repeat;
+}
+.hiddenBar .inPut{
+    position: absolute;
+    width: 650px;
+    height: 33px;
+    top: 6px;
+    left: 327px;
+    border-radius: 5px;
+}
+.hiddenBar .inPut .innerPt{
+    position: relative;
+    width: 650px;
+    height: 33px;
+    background: white;
+}
+.hiddenBar .inPut div.tips{
+    display: none;
+    padding:10px 0  0 8px;
+    position: absolute;
+    top: 33px;
+    left: 0;
+    width: 422px;
+    height: 250px;
+    z-index:10;
+    border: 1px solid #CCCCCC;
+    text-align: left;
+    background: white;
+    border-top: 1px solid black;
+}
+.hiddenBar .inPut .innerPt i{
+    display: inline-block;
+    width: 46px;
+    height: 33px;
+    padding-left: 12px;
+    line-height: 33px;
+    background: url("../images/xubi1.png") no-repeat 51px -17px
+}
+.hiddenBar .inPut .innerPt i ol{
+    position: absolute;
+    width: 70px;
+    height: 60px;
+    border: 1px solid #cecece;
+    background-color: #fff;
+    border-top: none;
+    display: none;
+    left: 0;
+    top: 34px;
+}
+.hiddenBar .inPut .innerPt i ol li{
+    text-align: center;
+    line-height: 30px;
+}
+.hiddenBar .inPut .innerPt input[type=text]{
+    width: 512px;
+    height: 32px;
+    padding-left: 10px;
+    border: none;
+}
+.hiddenBar .inPut .innerPt input[type=submit] {
+    width: 70px;
+    height: 35px;
+    background: #ff4466 url("../images/xubi1.png") no-repeat 26px -56px;
+    border: none;
+    vertical-align: -14px;
+}
+/*
+ceshi
+*/
+
+/*
+ceshi
+*/
+.hiddenBar .inPut i{
+
+}
+.sidebar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 30px;
+    height: 1017px;
+    background: #202020;
+    padding-top: 108px;
+}
+
+.sidebar li {
+    text-align: center;
+    padding: 13px 4px 0 4px;
+}
+
+.sidebar li:hover {
+    background: #ef2f23;
+}
+
+.sidebar li:hover b {
+    background: #ef2f23;
+}
+
+.sidebar li b {
+    display: block;
+    width: 22px;
+    height: 1px;
+    margin-top: 10px;
+    background: #919191;
+}
+
+.sidebar li a {
+    color: #ffffff;
+}
+
+.sidebar li i {
+    display: inline-block;
+    width: 17px;
+    height: 20px;
+}
+
+.sidebar .sl1 i {
+    background: url("../images/sidebar.png") no-repeat -7px -8px;
+}
+
+.sidebar .sl2 i {
+    background: url("../images/sidebar.png") no-repeat -7px -36px;
+}
+
+.sidebar .sl3 i {
+    background: url("../images/sidebar.png") no-repeat -7px -96px;
+}
+
+.sidebar .sl4 i {
+    background: url("../images/sidebar.png") no-repeat -7px -67px;
+}
+
+/*end sidebar */
+/*header*/
+.header {
+    width: 100%;
+    height: 31px;
+    border-bottom: 1px solid #dddddd;
+    background: #f2f2f2;
+}
+
+.head ul {
+    width: 472px;
+    float: right;
+}
+
+.head ul li {
+    float: left;
+    line-height: 31px;
+    margin-right: 16px;
+}
+
+.head ul li a {
+    color: #333333;
+}
+
+.head ul .bor1:before {
+    content: '';
+    display: block;
+    width: 1px;
+    height: 14px;
+    margin: 8px 38px 0 0;
+    background: #dddddd;
+    float: left;
+}
+
+.head ul .bor2:before {
+    content: '';
+    display: block;
+    width: 1px;
+    height: 14px;
+    margin: 8px 38px 0 0;
+    background: #dddddd;
+    float: left;
+}
+
+.head ul .bor3:before {
+    content: '';
+    display: block;
+    width: 1px;
+    height: 14px;
+    margin: 8px 15px 0 0;
+    background: #dddddd;
+    float: left;
+}
+
+.head ul .bor4:before {
+    content: '';
+    display: block;
+    width: 1px;
+    height: 14px;
+    margin: 8px 35px 0 0;
+    background: #dddddd;
+    float: left;
+}
+
+.head ul .bor3 i, .head ul .bor4 i {
+    display: inline-block;
+    width: 11px;
+    height: 4px;
+    background: url("../images/xubi1.png") no-repeat 0 -160px;
+}
+
+.head ul .bor4 {
+    margin-right: 0;
+}
+
+.head ul .bor1 {
+    background: url("../images/xubi1.png") no-repeat 20px -213px;
+}
+
+.head ul .bor2 {
+    background: url("../images/xubi1.png") no-repeat 12px -104px;
+    position: relative;
+}
+
+.head ul .bor3 {
+    position: relative;
+}
+
+.head ul .bor4 {
+    background: url("../images/xubi1.png") no-repeat 12px -250px;
+    position: relative;
+}
+
+.head ul .bor2 b {
+    position: absolute;
+    width: 200px;
+    height: 54px;
+    line-height: 54px;
+    text-align: center;
+    top: 31px;
+    left: -89px;
+    background: #eeeeee;
+    border: 1px solid #dddddd;
+    border-top: hidden;
+    border-radius: 0 0 5px 5px;
+    color: #999999;
+    display: none;
+}
+
+.head ul .bor2:hover b {
+    display: block;
+}
+
+.head ul .bor3 ol {
+    position: absolute;
+    width: 100px;
+    height: 90px;
+    top: 31px;
+    left: 0;
+    background: #eeeeee;
+    border: 1px solid #dddddd;
+    border-top: hidden;
+    border-radius: 0 0 5px 5px;
+    display: none;
+    z-index: 2;
+}
+
+.head ul .bor3:hover ol {
+    display: block
+}
+
+.head ul .bor3 ol li {
+    padding-left: 20px;
+    width: 80px;
+}
+
+.head ul .bor3 ol li:hover {
+    background: #e4e4e4;
+}
+
+.head ul .bor3 ol li a {
+    color: #444444;
+}
+
+.head ul .bor4 ol {
+    position: absolute;
+    width: 91px;
+    height: 120px;
+    top: 31px;
+    left: 0;
+    background: #eeeeee;
+    border: 1px solid #dddddd;
+    border-top: hidden;
+    border-radius: 0 0 5px 5px;
+    display: none;
+    z-index: 2;
+}
+
+.head ul .bor4:hover ol {
+    display: block
+}
+
+.head ul .bor4 ol li {
+    padding-left: 20px;
+    width: 70px;
+}
+
+.head ul .bor4 ol li:hover {
+    background: #e4e4e4;
+}
+
+.head ul .bor4 ol li a {
+    color: #444444;
+}
+
+/*end header*/
+/*heaerdMid*/
+.headerMid {
+    width: 100%;
+    height: 144px;
+    border-bottom: 1px solid #ff4466;
+}
+
+.headMidLeft {
+    width: 949px;
+    float: left;
+}
+
+.headMidLeft .hmlt {
+    height: 108px;
+}
+
+.headMidLeft .hmlb {
+    height: 36px;
+}
+
+.headMidLeft .hmlt h1 {
+    width: 207px;
+    height: 54px;
+    background: url("../images/shangbiao.png") no-repeat 0 0;
+    margin: 37px 142px 0 0;
+    float: left;
+}
+.headMidLeft .hmlt i{
+    position: relative;
+}
+.headMidLeft .hmlt i div{
+    display: none;
+    padding:10px 0  0 8px;
+    position: absolute;
+    top: 33px;
+    left: -1px;
+    width: 422px;
+    height: 250px;
+    z-index:10;
+    border: 1px solid #CCCCCC;
+    text-align: left;
+    background: white;
+    border-top: 1px solid black;
+}
+.headMidLeft .hmlt i ol {
+    position: absolute;
+    width: 70px;
+    height: 60px;
+    border: 1px solid #cecece;
+    border-top: none;
+    display: none;
+    left: -1px;
+    top: 34px;
+    background: #ffffff;
+}
+
+.headMidLeft .hmlt i:hover ol {
+    display: block;
+}
+
+.headMidLeft .hmlt i ol li {
+    text-align: center;
+    line-height: 30px;
+}
+
+.headMidLeft .hmlt i ol li:hover {
+    background: #f7f7f7;
+}
+
+.headMidLeft .hmlt i ol .li1 {
+    color: #333333;
+}
+
+.headMidLeft .hmlt i ol .li1:hover {
+    color: #666666;
+}
+
+.headMidLeft .hmlt i {
+    width: 58px;
+    height: 33px;
+    border: 1px solid #3a3a3a;
+    display: inline-block;
+    border-right: none;
+    line-height: 33px;
+    text-align: center;
+    margin: 40px 0 6px 0;
+    background: url("../images/xubi1.png") no-repeat 51px -17px;
+    color: #666666;
+    position: relative;
+}
+
+.headMidLeft .hmlt input[type=text] {
+    width: 354px;
+    height: 33px;
+    border: 1px solid #3a3a3a;
+    border-left: none;
+    padding-left: 18px;
+}
+
+.headMidLeft .hmlt input[type=submit] {
+    width: 70px;
+    height: 35px;
+    background: #3a3a3a url("../images/xubi1.png") no-repeat 26px -56px;
+    border: none;
+    vertical-align: -14px;
+}
+
+.headMidLeft .hmlt input[type=submit]:hover {
+    cursor: pointer;
+}
+
+.headMidLeft .hmlt ul li {
+    float: left;
+    padding-right: 21px;
+}
+
+.headMidLeft .hmlt ul li a {
+    color: #999999;
+}
+
+.headMidLeft .hmlb i {
+    display: inline-block;
+    width: 225px;
+    height: 37px;
+    background: #ff4466;
+    color: #ffffff;
+    line-height: 37px;
+    text-align: center;
+    border-radius: 4px 4px 0 0;
+    font-size: 14px;
+}
+
+.headMidLeft .hmlb a {
+    padding-left: 61px;
+    font-size: 14px;
+    color: #333333;
+    font-weight: bold;
+}
+
+.headMidLeft .hmlb a:hover {
+    text-decoration: underline;
+}
+
+.headMidRight {
+    float: right;
+    position: relative;
+}
+
+.headMidRight .i2 {
+    width: 83px;
+    height: 83px;
+    position: absolute;
+    left: 103px;
+    top: 57px;
+}
+
+/* end headerMid*/
+/*main*/
+/*mainav*/
+/*subnav*/
+.subnav {
+    float: left;
+}
+
+.subnav ul {
+    width: 223px;
+    height: 549px;
+    border: 1px solid #ff0000;
+    border-top: none;
+    position: relative;
+}
+
+.subnav ul li .dd1 {
+    border-bottom: 1px dashed #c7c7c7;
+    width: 223px;
+    height: 38px;
+    line-height: 38px;
+}
+
+.subnav ul li i {
+    display: inline-block;
+    width: 1px;
+    height: 12px;
+    background: #d8d8d8;
+    margin: 0 1px;
+    vertical-align: -2px;
+}
+
+.subnav ul li span {
+    padding-right: 13px;
+    padding-left: 20px;
+}
+
+.subnav ul li a {
+    color: #ff4466;
+}
+
+.subnav ul li .hs {
+    color: #666666;
+}
+
+.subnav ul li span a {
+    color: #333333;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.subnav ul li .dd2 {
+    border: 1px solid #cfcfcf;
+    width: 223px;
+    height: 38px;
+    line-height: 38px;
+    border-right: #ffffff;
+    border-left: transparent;
+    position: relative;
+    display: none;
+    z-index: 3;
+}
+
+.subnav ul li .dd2 b {
+    position: absolute;
+    height: 38px;
+    width: 1px;
+    background: #ffffff;
+    top: 0;
+    right: -1px;
+}
+
+.subnav ul li:hover .dd1 {
+    display: none;
+}
+
+.subnav ul li:hover .dd2 {
+    display: block;
+}
+
+.subnav ul li a:hover {
+    text-decoration: underline;
+}
+
+.subnav ul .noB .dd1 {
+    border-bottom: none
+}
+
+.subnav ul li .dd3 {
+    position: absolute;
+    width: 290px;
+    height: 548px;
+    border: 1px solid #dddddd;
+    top: 0;
+    left: 223px;
+}
+
+.subnav .dd3 {
+    padding-left: 20px;
+    display: none;
+    background: #ffffff;
+    z-index: 2;
+}
+
+.subnav .dd3 h4 {
+    padding: 12px 0 6px 0;
+}
+
+.subnav .dd3 h4 a {
+    color: #333333;
+    font-weight: bold;
+}
+
+.subnav .dd3 li {
+    height: 127px;
+}
+
+.subnav .dd3 li a {
+    line-height: 24px;
+    padding-right: 21px;
+    display: inline-block;
+}
+
+.subnav .dd3 li img {
+    margin-top: 40px;
+}
+
+.subnav ul li:hover .dd3 {
+    display: block;
+}
+
+/*end subnav*/
+/*carouselFigure*/
+.mainav .bBox{
+    float: left;
+    width: 715px;
+    height: 510px;
+    padding: 20px;
+}
+/*
+..................
+*/
+.mainav .bBox .box{
+    width: 715px;
+    height: 530px;
+    position: relative;
+    overflow: hidden;
+}
+.mainav .bBox .box .boxInner{
+    width: 3575px;
+    position: absolute;
+    left: 0;
+    top:0;
+}
+.mainav .bBox .box .boxInner div{
+    width: 715px;
+    height: 530px;
+    float: left;
+}
+.mainav .bBox .box .boxInner div img{
+    width: 100%;
+    height: 100%;
+}
+.mainav .bBox .box ul{
+    width: 140px;
+    height: 25px;
+    position: absolute;
+    bottom:10px;
+    left:287px;
+    border-radius:12px;
+    background: white;
+}
+.mainav .bBox .box ul li{
+    width: 16px;
+    height: 16px;
+    background: #ccc;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-top: 5px;
+    float: left;
+    cursor: pointer;
+}
+.mainav .bBox .box ul li.on{
+    background: orangered;
+}
+.mainav .bBox .box a{
+    width: 26px;
+    height: 44px;
+    position: absolute;
+    top:243px;
+    background-image: url("../images/pre.png");
+    opacity: 0.3;
+    filter:alpha(opacity=30);
+    display: none;
+}
+.mainav .bBox .box a:hover{
+    opacity: 1;
+    filter:alpha(opacity=100);
+}
+.mainav .bBox .box .btnLeft{
+    left:0;
+    background-position: 0 0;
+}
+.mainav .bBox .box .btnRight{
+    right:0;
+    background-position: -50px 0;
+}
+
+/*
+........
+*/
+
+
+
+
+/*end carouselFigure*/
+/*rightnav*/
+.rightnav {
+    padding-top: 20px;
+    float: right;
+}
+
+.rightnav ul {
+    width: 180px;
+    height: 528px;
+    border: 1px solid #dddddd;
+    float: left;
+    padding: 0 19px;
+}
+
+.rightnav ul li {
+    padding-top: 20px;
+    height: 243px;
+}
+
+.rightnav ul .hbor {
+    border-bottom: 1px dashed #dddddd;
+}
+
+/*end rightnav*/
+/*end mainav*/
+/*pro*/
+.pro {
+    width: 1199px;
+    height: 300px;
+    border-top: 1px solid #0c0c0c;
+    margin-top: 80px;
+}
+
+.pro .proL {
+    width: 223px;
+    height: 295px;
+    border-left: 1px solid #dddddd;
+    border-right: 1px solid #dddddd;
+    border-bottom: 5px solid #ff4466;
+    float: left;
+    margin-right: 20px;
+    position: relative;
+}
+
+.pro .miaosha {
+    width: 223px;
+    height: 48px;
+    color: #ff4466;
+    font-size: 24px;
+}
+
+.pro .miaosha span {
+    font-size: 24px;
+    color: #ff4466;
+    font-weight: bold;
+    padding: 12px 9px 0 10px;
+    display: inline-block;
+    vertical-align: -4px
+}
+
+.pro .miaosha i {
+    display: inline-block;
+    width: 24px;
+    height: 24px;;
+    background: #ff4466;
+    border-radius: 2px;
+    color: #ffffff;
+    text-align: center;
+    font-family: "Microsoft YaHei";
+    line-height: 26px;
+    vertical-align: -1px;
+}
+
+.pro .proL img {
+    width: 223px;
+    height: 247px;
+}
+
+.pro .proL .fd {
+    width: 73px;
+    height: 73px;
+    background: url("../images/proImg2.png") no-repeat 0 -310px;
+    position: absolute;
+    left: 132px;
+    top: 203px;
+}
+
+.pro .proL .fd span, .pro .proL .fd b {
+    display: block;
+    color: #ffffff;
+}
+
+.pro .proL .fd b {
+    padding: 19px 0 0 25px;
+}
+
+.pro .proL .fd span {
+    padding-left: 19px;
+}
+
+.pro .proImg3 {
+    float: left;
+    margin-right: 19px;
+}
+
+.pro ul {
+    float: left;
+}
+
+.pro ul .proImg4 {
+    padding-bottom: 10px;
+}
+
+/*end pro*/
+/*pro1*/
+.proa {
+    height: 548px;
+    width: 1200px;
+    margin-top: 80px;
+}
+
+.proa1 {
+    height: 31px;
+    width: 1200px;
+    text-align: center;
+}
+
+.proa1 > span {
+    font-size: 26px;
+    font-weight: bold;
+    color: #0c0c0c;
+    line-height: 31px;
+}
+
+.proaT {
+    height: 11px;
+    width: 491px;
+    background: url("../images/ct.png") no-repeat 0 0;
+    float: left;
+    margin-top: 11px;
+}
+
+.proaR {
+    height: 11px;
+    width: 491px;
+    background: url("../images/ct.png") no-repeat 0 0;
+    float: right;
+    margin-top: 11px;
+}
+
+/*end pro1*/
+/*pro2*/
+.proa2 {
+    width: 1200px;
+    height: 500px;
+    margin-top: 17px;
+}
+
+.proa2 .proTl {
+    width: 223px;
+    height: 498px;
+    border: 1px solid #dddddd;
+    float: left;
+}
+
+.proa2 .proTl .left1 {
+    height: 393px;
+    background: #fbfbfb;
+}
+
+.proa2 .proTl .left1 li {
+    padding: 20px 0 3px 27px;
+}
+
+.proa2 .proTl .left2 li {
+    margin: 12px 0 0 18px;
+    float: left;
+    border: 1px solid transparent;
+    text-align: center;
+}
+
+.proa2 .proTl .left2 li:hover {
+    border-color: #dddddd;
+}
+
+.proa2 .proTl .left2 li a {
+    color: #333333;
+}
+
+.proa2 .proTr {
+    width: 975px;
+    height: 500px;
+    float: left;
+}
+
+.proa2 .proTr ul li {
+    float: left;
+    padding: 0 0 20px 20px;
+}
+
+.proa2 .proTr ol li {
+    width: 305px;
+    float: left;
+    padding-left: 20px;
+}
+
+.proa2 .proTr ol li img {
+    float: left;
+    padding-right: 10px;
+}
+
+.proa2 .proTr ol li span {
+    display: block;
+    float: left;
+    color: #333333;
+    font-size: 14px;
+    padding-top: 50px;
+}
+
+.proa2 .proTr ol li i {
+    display: block;
+    float: left;
+    font-size: 14px;
+    color: #999999;
+}
+
+.proa2 .proTr ol li .te {
+    padding-right: 30px;
+}
+
+.proa2 .proTl .bd .bl {
+    margin: 20px;
+}
+
+.proa2 .proTl .bu li {
+    float: left;
+    border-top: 1px solid #dddddd;
+    border-right: 1px solid #dddddd;
+    width: 111px;
+    height: 60px;
+    position: relative;
+}
+
+.proa2 .proTl .bu li div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 111px;
+    height: 60px;
+    background: rgba(248, 248, 248, .8);
+    display: none;
+}
+
+.proa2 .proTl .bu li:hover div {
+    display: block;
+    cursor: pointer;
+}
+
+.proa2 .proTl .bu .bb {
+    border-right: none;
+}
+
+.proTr .ru .rl {
+    width: 215px;
+    height: 248px;
+    border-right: 1px solid #dddddd;
+    border-top: 1px solid #dddddd;
+    padding: 0;
+}
+
+.proTr .ru .rl p a {
+    color: #000;
+}
+
+.proTr .ru .rl p a:hover {
+    text-decoration: underline;
+}
+
+.proTr .ru .rl img {
+    margin: 20px;
+}
+
+.proTr .ru .rl1 {
+    border-bottom: 1px solid #dddddd;
+}
+
+.proTr .ru .ri {
+    width: 175px;
+    height: 170px;
+}
+
+.proTr .ru p {
+    text-align: center;
+}
+
+/*end pro2*/
+.footer {
+    background: #f9f9f9;
+    margin-top: 90px;
+    border-top: 1px solid #d9d9d9;
+}
+
+.foot {
+    height: 141px;
+    border-bottom: 1px solid #d9d9d9;
+    padding-top: 28px;
+}
+
+.footLeft {
+    float: left;
+}
+
+.foot .fbg {
+    width: 152px;
+    height: 38px;
+    background: url("../images/footshangbiao.png") no-repeat 0 0;
+    margin-bottom: 5px;
+}
+
+.foot .fleft li {
+    color: #929292;
+    line-height: 21px;
+}
+
+.foot .fleft li a {
+    color: #929292;
+    line-height: 21px;
+}
+
+.foot .fleft li dd:hover a {
+    text-decoration: underline;
+}
+
+.footCenter {
+    float: left;
+}
+
+.footCenter .footDt {
+    padding-bottom: 7px;
+    font-weight: bold;
+    color: #3b3b3b;
+}
+
+.footCenter .footDl a {
+    color: #6c6c6c;
+}
+
+.footCenter .footDl a:hover {
+    text-decoration: underline;
+}
+
+.footCenter li {
+    float: left;
+    padding-right: 122px;
+}
+
+.footCenter .footLi {
+    padding-left: 103px;
+}
+
+.footRight {
+    float: left;
+}
+
+.footRight p {
+    padding-bottom: 7px;
+    font-weight: bold;
+    color: #3b3b3b;
+}
+
+.footRight .i1 {
+    display: inline-block;
+    width: 28px;
+    height: 28px;
+    background: url("../images/beijingtu.png") no-repeat -499px -48px;
+    margin-right: 23px;
+}
+
+.footRight .i2 {
+    display: inline-block;
+    width: 128px;
+    height: 25px;
+    background: url("../images/beijingtu.png") no-repeat -255px -51px;
+    margin-right: 28px;
+}
+
+.footRight .i3 {
+    display: inline-block;
+    width: 68px;
+    height: 26px;
+    background: url("../images/beijingtu.png") no-repeat -407px -51px;
+}
+
+.bottom {
+    padding-top: 11px;
+    height: 38px;
+}
+
+.bottom dd, .bottom dt {
+    float: left;
+}
+
+.bottom dd {
+    padding-right: 29px;
+}
+
+.bottom .dd1 {
+    padding-left: 5px;
+}
+
+.bottom dd a {
+    color: #4c4c4c;
+}
+
+.bottom dd a:hover {
+    color: #fd4368;
+    text-decoration: underline;
+}
+
+/*end main*/
